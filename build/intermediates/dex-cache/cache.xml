@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ganga/.android/build-cache/0b8c658e26478085ba8ea7237195327dbc8375b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/ganga/Desktop/NoLine15 Oct 2017/NoLine/app/build/intermediates/pre-dexed/debug/classes_89313e54fc438a399552ca0ebbfa5b3b6dcc48b2.jar" />
+    </item>
+
+</items>

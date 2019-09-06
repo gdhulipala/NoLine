@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/receipts"
+        android:title="Receipts"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/payment_method"
+        android:title="Payment Method"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/share_application"
+        android:title="Share App"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/finditem_code"
+        android:title="Find Item By Name"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/rate_experience"
+        android:title="Rate Your Experience"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/add_inventory"
+        android:title="Add Inventory"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/save_changes"
+        android:title="Save"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+    <item
+        android:id="@+id/edit_payment"
+        android:title="Edit Payment"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+
+    <item
+        android:id="@+id/add_payment"
+        android:title="Add Payment"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_menu_white_24dp"/>
+
+</menu>

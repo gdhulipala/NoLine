@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PaymentSummaryActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        android:id="@+id/first_receipt"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date2"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time2"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems2"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date3"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time3"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal3"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems3"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date4"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time4"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal4"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems4"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date5"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time5"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal5"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems5"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date6"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time6"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal6"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems6"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date7"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time7"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal7"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems7"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date8"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time8"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal8"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems8"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date9"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time9"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal9"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems9"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date10"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time10"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal10"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems10"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date11"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time11"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal11"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems11"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#DD2C00"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08 Oct 2017"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_date12"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="21:46:14"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/current_time12"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 14.9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/totalfinal12"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Items"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:id="@+id/numberofItems12"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
